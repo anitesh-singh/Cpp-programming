@@ -110,3 +110,34 @@ int main()
     return 0;
 }*/
 
+//swap alternate
+/*#include<iostream>
+using namespace std;
+void swap (int arr[], int size){
+    for (int i = 0; i < size; i+=2)
+    {
+        if (i+1<size){
+            swap(arr[i],arr[i+1]);   //temp=arr[i+1]; arr[i+1]=arr[i]; arr[i]=temp;
+        }
+    }
+    
+
+}
+void printarray(int arr[], int size){
+    for (int i = 0; i < size; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+}
+int main()
+{
+    int arr1[5]={2,4,5,1,6};
+    int arr2[6]={2,4,5,1,6,-2};
+    swap(arr1,5);
+    swap(arr2,6);
+    printarray(arr1,5);
+    printarray(arr2,6);
+    return 0;
+}*/
+
