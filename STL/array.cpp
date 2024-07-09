@@ -1,5 +1,5 @@
 //stl array  (sequence container )
-/*#include<iostream>
+#include<iostream>
 #include<array>  //header file 
 using namespace std;
 int main()
@@ -16,8 +16,8 @@ int main()
     cout<<"checking empty or not "<< arr.empty()<<endl;
     cout<<"front element "<< arr.front()<<endl;
     cout<<"back element "<< arr.back()<<endl;
-
-
+    int siz=sizeof(arr)/sizeof(int);
+    cout<<siz<<endl;
     return 0;
-}*/
+}
 

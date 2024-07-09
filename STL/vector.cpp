@@ -16,7 +16,7 @@ int main()
     cout<<"before pop operation"<<endl;
     for (int i:v)
     {
-        cout<<i<<" ";
+        cout<<i<<" ";       //here i directly provides the value at the corresponding index, and the v[i] will treat the element as the index
     }cout<<endl;
 
     //pop operation the last inserted element will get pop out
