@@ -108,4 +108,35 @@ int main()
     return 0;
 }*/
 
+//array imporatant (understanding iteration)------------
+/*#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int> nums={4,3,2,7,8,2,3,1};
+    vector<int> arr;
+    for(int n:nums){
+        cout<<nums[n]<<" ";   //here n directly provides the value at the corresponding index, and the nums[n] will treat the element as the index
+    }cout<<endl;         //i.e. the nums[4] will get to the 5th element starting index 0, if we do nums[n-1] then the starting index will be 1 and the element will be 7 the 4th one 
+    for(int n=0;n<nums.size();n++){
+        int element=nums[nums[n]];    // the other way of doing the above the inner nums[n] gives the value at a index and the outer one treat the value as an index and provides the corresponding element at that index of the array
+        cout<<element<<" ";
+    }cout<<endl;
+    
+}
 
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int> nums={4,3,2,7,8,2,3,1};
+    vector<int> arr;
+    for(int n:nums){
+        cout<<nums[n-1]<<" ";   //here n directly provides the value at the corresponding index, and the nums[n] will treat the element as the index
+    }cout<<endl;         //i.e. the nums[4] will get to the 5th element starting index 0, if we do nums[n-1] then the starting index will be 1 and the element will be 7 the 4th one 
+    for(int n=0;n<nums.size();n++){
+        int element=nums[nums[n]-1];    // the other way of doing the above the inner nums[n] gives the value at a index and the outer one treat the value as an index and provides the corresponding element at that index of the array
+        cout<<element<<" ";
+    }cout<<endl;
+    
+}*/
