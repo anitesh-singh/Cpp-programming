@@ -1,3 +1,7 @@
+//to include c libraries in cpp header file <cstdio> is used <cmath> <cstring> is used
+
+
+
 /*#include<iostream>   //iostreme header file includes cout function
 using namespace std; // using std namespace 
 int main(int argc, char const *argv[])
@@ -140,3 +144,84 @@ int main(){
     }cout<<endl;
     
 }*/
+
+
+/*#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+       {
+           for(int j=1;j<=n;j++)
+           {
+               cout<<"* ";
+           }
+       cout<<endl;
+    }
+    return 0;
+}*/
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     // for (int i=0;i<4;i++){
+//         char ch='A';
+//     // }
+//     ch=ch+3;
+//     cout<<ch<<endl;
+// }
+
+/*#include<iostream>
+using namespace std;
+int main(){
+    for(int i=0;i<3;i++){
+        for(int k=0;k<i;k++){
+            cout<<"  ";
+        }
+        for(int j=i;j<3;j++){
+            cout<<" *";
+        }cout<<endl;
+    }
+}*/
+
+// Write your code here.
+/*#include<iostream>
+using namespace std;
+int main(){
+    int n=5;
+    for (int i=0; i<n;i++){
+        //printing star
+        for(int k=i;k<n;k++){
+            cout<<"* ";
+        }
+        for (int j = 0; j < i; j++) {
+            cout <<"  ";
+        }
+        //spaces
+        for (int j = 0; j < i; j++) {
+            cout <<"  ";
+        }
+        //print star
+        for(int x=i;x<n;x++){
+            cout<<"* ";
+        }cout<<endl;
+    }
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<"* ";
+        }
+        for (int k = i; k < n-1; k++) {
+            cout <<"  ";
+        }
+        //spaces
+        for (int k = i; k < n-1; k++) {
+            cout <<"  ";
+        }
+        for(int x=0;x<=i;x++){
+            cout<<"* ";
+        }cout<<endl;
+    }
+}*/
+
